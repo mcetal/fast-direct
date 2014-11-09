@@ -1,0 +1,29 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww19140\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs24 \cf0 Matlab Files from Class on Oct. 15\
+\
+These files study the the rank structure of the linear system associated with the exterior Laplace problem. \
+\
+Files for building linear system: \
+\
+ExtLaplace_MultConn_GGM.m : solves the exterior Laplace problem on a region outside of four ellipses. Uses Matlab\'92s built-in backslash operator with no compression\
+GetLinearSystemv2.m and GetLinearSystemv3.m : supply the matrix to be compressed from the exterior Laplace problem\
+MakeEllipse.m : function used in creating linear system. Constructs the necessary contour information associated with each ellipse in the problem.\
+\
+Files for studying ranks of system: \
+\
+Ranks_SameDomain_ChangingN: Displays relationship between ranks of off-diagonal blocks and the number of points, N, on each ellipse\
+Ranks_ChangingDomain: Displays relationship between rank, and bringing ellipses closer and closer together. \
+id_decomp.m: function from Fast Direct Solvers workshop implementing the ID: interpolative decomposition\
+Visualizing_SkeletonPoints.m: Displays the skeleton points associated with the compression of horizontal and vertical blocks.\
+ID_Accuracy.m: verifies the error in the ID with formulas given in Cheng et al. \
+\
+\
+\
+\
+\
+}
